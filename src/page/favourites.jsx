@@ -42,6 +42,7 @@ function Favourites() {
           <input
             className='search-fav'
             placeholder='Search from Favourites'
+            value={searchQuery} //
             onChange={(e) => handleSearch(e.target.value)}
           />
         </div>
