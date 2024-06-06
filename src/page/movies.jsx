@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import { FavoritesContext } from '../context/FavoritesContext';
 
+
 function Movies() {
   const [movies, setMovies] = useState([]);
   const [filteredMovies, setFilteredMovies] = useState([]);
@@ -17,7 +18,7 @@ function Movies() {
   useEffect(() => {
     const fetchMovies = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/movies');
+        const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/movies`);
         setMovies(response.data);
         setFilteredMovies(response.data);
       } catch (error) {
@@ -30,7 +31,7 @@ function Movies() {
 
   const handleSearch = async (query) => {
     try {
-      const response = await axios.get(`http://localhost:3000/search?query=${query}`);
+      const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/search?query=${query}`);
       setFilteredMovies(response.data);
     } catch (error) {
       console.error('Error searching movies:', error);
