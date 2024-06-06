@@ -27,7 +27,7 @@ Start the frontend server:
 cd MoviesProject-Frontend-movies
 npm start
 
-Access the application in your browser at http://localhost:3001.
+Access the application in your browser at (https://cinemakaanuu.netlify.app/).
 
 Backend API Endpoints
 GET /movies: Get all movies.
