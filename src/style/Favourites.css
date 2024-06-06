@@ -1,0 +1,51 @@
+.head {
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.search-box {
+  position: relative;
+}
+
+.searchicon {
+  position: absolute;
+  margin-left: 910px;
+  margin-top: 30px;
+}
+
+.search-fav {
+  width: 200px;
+  height: 30px;
+  align-items: center;
+  margin-top: 20px;
+  border-radius: 50px;
+  margin-left: 900px;
+  border-width: medium;
+  border-color: rgb(225, 223, 223);
+  color: black;
+  padding-right: 60px;
+  padding-left: 30px;
+}
+
+.favorites-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 700px;
+  column-gap: 100px;
+  margin-top: 100px;
+}
+
+.favorite-item {
+  width: 250px;
+  height: 10px;
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.favorite-item img {
+  width: 100%;
+  border-radius: 40px;
+}

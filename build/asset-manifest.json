@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.33cea25d.css",
+    "main.js": "/static/js/main.6bad425b.js",
+    "static/js/453.7bf11acd.chunk.js": "/static/js/453.7bf11acd.chunk.js",
+    "static/media/spiderman.jpg": "/static/media/spiderman.9ebe07ad1c44f9836d40.jpg",
+    "index.html": "/index.html",
+    "main.33cea25d.css.map": "/static/css/main.33cea25d.css.map",
+    "main.6bad425b.js.map": "/static/js/main.6bad425b.js.map",
+    "453.7bf11acd.chunk.js.map": "/static/js/453.7bf11acd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33cea25d.css",
+    "static/js/main.6bad425b.js"
+  ]
+}
